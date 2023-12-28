@@ -96,26 +96,6 @@ body {
   height: 100%;
 }
 
-.collage {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-}
-
-.collage img {
-  width: 100%;
-  height: auto;
-}
-
-.collage img:nth-child(1) {
-  flex-grow: 2;
-}
-
-.collage img:nth-child(2),
-.collage img:nth-child(3) {
-  flex-grow: 1;
-}
-
 .text-block {
   flex: 1;
   /* Placeholder color */
